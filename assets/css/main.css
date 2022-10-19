@@ -189,11 +189,11 @@ from{top:-27%}
 to{top:-25%}
 }
 @media (max-width:1600px){
-.wrapper video{height:650px}
+.wrapper video{height:auto !important; object-fit: contain !important;}
 }
 @media (max-width:1200px){
 .container{padding:0 20px}
-.wrapper video{-o-object-fit:contain;object-fit:contain;height:auto}
+.wrapper video{-o-object-fit:contain !important;object-fit:contain;height:auto}
 .metaverse-img{width:45%;position:relative}
 .metaverse-img img{width:100%;position:absolute;top:50%;left:0;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}
 .main__title{width:70%}
